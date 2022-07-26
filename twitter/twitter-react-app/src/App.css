@@ -1,0 +1,76 @@
+.App {
+  box-sizing: border-box;
+  padding: 0px 20%;
+}
+
+.main-item-container {
+}
+
+.flex-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(168, 162, 162);
+  border-top: none;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.tweet-body {
+  width: 80%
+}
+
+.tweet-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-head > span {
+  display: block;
+  margin: auto 0;
+}
+
+.delete-tweet-btn {
+  padding: 10px;
+  background-color:rgb(238, 237, 237);
+  visibility: hidden;
+  border: 1px solid #FFFFEE;
+  border-radius: 8px;
+}
+
+.flex-container:hover .delete-tweet-btn {
+  visibility: unset;
+}
+
+.tweet-input {
+  padding: 10px;
+  background-color: #FFEEFF;
+}
+
+.tweet-input > input{
+  font-size: 21px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 80%
+}
+
+.tweet-input > button {
+  font-size: 21px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.twitter-header {
+  border: 1px solid rgb(168, 162, 162);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 20px
+}
