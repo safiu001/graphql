@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server": "^3.10.0",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm link typescript && npx nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
